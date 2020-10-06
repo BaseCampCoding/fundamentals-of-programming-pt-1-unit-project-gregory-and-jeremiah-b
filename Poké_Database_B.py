@@ -16,7 +16,7 @@ while True:
     elif response == 'q':
         break
 Cyndaquil=[
-    144,
+    155,
     ("Fire"),
     "evolves into Quilava",
     "It is timid, and always curls itself up in a ball."
