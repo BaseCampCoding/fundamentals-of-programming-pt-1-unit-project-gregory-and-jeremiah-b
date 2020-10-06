@@ -15,14 +15,15 @@ This search can provide specific data such as in entry number, types, and pokéd
  ## Daily Goals
  
  ### *Tuesday:* Complete Database and start search features
- We want to have our 5-10 Pokémon done by today and then get a basic search feature implemented.
+ We want to have our 5-10 Pokémon done by today and then get a basic search feature implemented that allows you to search for a pokémon's name and will give you all available information.
  
  ### *Wednesday:* Search features should be complete
- We plan on having our search features fully desinged by the end of the day. 
+ We plan on having our search features where you can search up specific information such as type and generation introduced fully desinged by the  end of the day. 
  If we have extra time in the day then we might start early bug testing to make sure we impleted the lists correctly.
  
  ### *Thrusday:* Search features should be polished 
- Users should be able to easily search for specific data in our database. 
+ Users should be able to easily search for names, types, generation introduced, and give them a list of pokémon names with that data for the user to choose one out of to get its information.
+ 
  
  
 ## Students
