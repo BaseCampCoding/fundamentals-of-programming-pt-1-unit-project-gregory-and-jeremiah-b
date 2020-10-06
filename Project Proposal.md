@@ -1,27 +1,28 @@
 # Pokédex Finder
 ## Description
-In this Project, We are going to create a Finder through the pokédex for each of the legendary pokémon from each Generation. 
-More specifically, we want to ask the user for a legendary pokémon from a given list.
+In this Project, We are going to create a Finder through the pokédex for each of the starter pokémon for the first three generations. 
+More specifically, we want to ask the user for a pokémon from a given list.
 In the Pokémon games the Pokédex has a filter feature to let you  partially search and filter out pokémon, 
 but you cannot necessarily search for a specific pokémon so we wanted to create a new feature that allows you to search for a specific pokémon.
 This search can provide specific data such as in entry number, types, and pokédex entry.
 
 ## Prior Art
- In the games you can only search under a set parameter they give you. Instead of looking on the internet you can have the program run and find a legendary pokémon of your choosing. 
+ In the games you can only search under a set parameter they give you. Instead of looking on the internet you can have the program run and find a starter pokémon from the first three gens. 
  
  ## Core User Workflows
- - Pokémon search: Since we're just making a searchable database, we only need the user to provide a name of the legendary pokemon they want to find in our database.
+ - Pokémon search: Since we're just making a searchable database, we only need the user to provide a name of the pokemon they want to find in our database.
  
  ## Daily Goals
  
- ### *Tuesday:* Database should be half-way done
- We want to have at least half of our database done.
+ ### *Tuesday:* Complete Database and start search features
+ We want to have our 5-10 Pokémon done by today and then get a basic search feature implemented.
  
- ### *Wednesday:* Database should be complete and user input will be worked on
- We want to finish off our database so that we can get started making user input code. We plan to experiment with our code until user input is simple.
+ ### *Wednesday:* Search features should be complete
+ We plan on having our search features fully desinged by the end of the day. 
+ If we have extra time in the day then we might start early bug testing to make sure we impleted the lists correctly.
  
- ### *Thrusday:* User input should return info from database
- We should be able to ask for user input and return information based of their input. 
+ ### *Thrusday:* Search features should be polished 
+ Users should be able to easily search for specific data in our database. 
  
  
 ## Students
