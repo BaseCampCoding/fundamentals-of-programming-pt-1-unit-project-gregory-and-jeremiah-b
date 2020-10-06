@@ -8,10 +8,16 @@ while True:
         break
     elif response == 'q':
         break
-Cyndaquil=[
+cyndaquil=[
     155,
-    ("Fire"),
+    ("fire"),
     "evolves into Quilava",
     "It is timid, and always curls itself up in a ball."
     "If attacked, it flares up its back for protection"
     ]
+totodile=[
+    158
+    ("water")
+    "Its well-developed jaws are powerful and capable of crushing anything."
+    "Even its trainer must be careful."
+]
