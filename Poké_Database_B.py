@@ -7,7 +7,6 @@ while True:
         break
     elif response == 'q':
         break
-Bulbasaur=[]
 cyndaquil=[
     155,
     ("Fire"),
