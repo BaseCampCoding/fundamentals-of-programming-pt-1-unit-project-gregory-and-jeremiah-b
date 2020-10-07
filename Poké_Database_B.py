@@ -10,7 +10,7 @@ while True:
         Starter_index = i.index(Is_Starter)
         print()
     break
-print("Not a Starter from available starters.")
+    print("Not a Starter from available starters.")
 
 print(f"Here are the types{Data.types[0]}")
 while True:
