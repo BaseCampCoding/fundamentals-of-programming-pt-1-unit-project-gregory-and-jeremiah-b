@@ -17,7 +17,22 @@ cyndaquil=[
     "If attacked, it flares up its back for protection"
     ]
 totodile=[
-    158
-    ("water")
+    158,
+    ("water"),
     "Its well-developed jaws are powerful and capable of crushing anything."
     "Even its trainer must be careful."
+]
+treecko=[
+    252,
+    ("grass"),
+    "Evolves into Grovyle"
+    "Treeko has small hooks on the bottom of its feet that enable it to scale vertical walls."
+    "This POKéMON attacks by slamming foes with its thick tail."
+]
+torchic=[
+  255,
+  ("fire")
+  "evolves into Combusken"
+  "torchic sticks with its trainer, following behind with unsteady steps. 
+  'This pokémon breathes fire of over 1,800 degrees F, including fireballs that leave the foe scorched black."
+]
