@@ -10,33 +10,15 @@ def Is_A_Starter(Is_Starter):
     while True:
         Is_Starter = input("What starter would you like to view? (gens 1-3) (q to quit) : ").lower()
         if Is_Starter in (starters):
-            return Is_starter 
+            return Is_Starter 
 
-types = [
-    "fire"
-    "water"
-    "grass"
-    "electric"
-    "poison"
-]
+types = ["fire", "water", "grass", "electric", "poison"]
 
-fire = [
-    "charmander"
-    "cyndaquil"
-    "torchic"
-]
+fire = ["charmander", "cyndaquil", "torchic"]
 
-water = [
-    "squirtle"
-    "totodile"
-    "mudkip"
-]
+water = ["squirtle", "totodile", "mudkip"]
 
-grass = [
-    "bulbasaur"
-    "chikorita"
-    "treecko"
-]
+grass = ["bulbasaur", "chikorita", "treecko"]
 
 electric = ["pikachu"]
 
