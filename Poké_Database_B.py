@@ -9,7 +9,7 @@ while True:
      if i[0]== Is_Starter:
         print(i)
     break
-    print("Not a Starter from available starters.")
+    print("Not a Starter from available starters!")
 
 
 while True:
