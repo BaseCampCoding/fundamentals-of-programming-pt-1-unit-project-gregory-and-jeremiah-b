@@ -1,6 +1,5 @@
-#bulbasaur, charmander, squirtle, pikachu, chikorita
-#cyndaquil, totodile, treecko, torchic, mudkip
-print("Here are the available starters\n(articuno)")
+Starters= [" \nbulbasaur, charmander, squirtle, pikachu, \nchikorita, cyndaquil, totodile,\ntreecko, torchic, mudkip"]
+print(f"Here are the available starters{Starters[0]}")
 while True:
     response = input("What starter would you like to view? (gens 1-3) (q to quit) : ").lower()
     if response == 'articuno':
@@ -31,8 +30,8 @@ treecko=[
 ]
 torchic=[
   255,
-  ("fire")
-  "evolves into Combusken"
-  "torchic sticks with its trainer, following behind with unsteady steps. 
-  'This pokémon breathes fire of over 1,800 degrees F, including fireballs that leave the foe scorched black."
+  ("fire"),
+  "evolves into Combusken",
+  "torchic sticks with its trainer, following behind with unsteady steps."
+  "This pokémon breathes fire of over 1,800 degrees F, including fireballs that leave the foe scorched black."
 ]
