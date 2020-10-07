@@ -35,3 +35,33 @@ torchic=[
   "torchic sticks with its trainer, following behind with unsteady steps."
   "This pokémon breathes fire of over 1,800 degrees F, including fireballs that leave the foe scorched black."
 ]
+
+types = [
+    "fire"
+    "water"
+    "grass"
+    "electric"
+    "poison"
+]
+
+fire = [
+    "charmander"
+    "cyndaquil"
+    "torchic"
+]
+
+water = [
+    "squirtle"
+    "totodile"
+    "mudkip"
+]
+
+grass = [
+    "bulbasaur"
+    "chikorita"
+    "treecko"
+]
+
+electric = ["pikachu"]
+
+poison = ["bulbasaur"]
