@@ -20,6 +20,8 @@ while True:
     for i in Data.Starters:
      if i[2]== Type_categories:
         print(i)
-        break    
-     else:
+        break
+     elif Type_categories == "q":
+         quit() 
+     elif i[2]== Type_categories:
         print("Not a valid type. Please choose valid types")
