@@ -1,4 +1,4 @@
-Starters_string = ["cyndaquil,totodile,treecko,torchic"]
+Starters_string = [" cyndaquil,totodile,treecko,torchic"]
 cyndaquil=["cyndaquil",155,"Fire","evolves into Quilava","It is timid, and always curls itself up in a ball.If attacked, it flares up its back for protection"]
 totodile=["totodile",158,"water","Its well-developed jaws are powerful and capable of crushing anything.Even its trainer must be careful."]
 treecko=["treecko",252,"grass","Evolves into Grovyle","Treeko has small hooks on the bottom of its feet that enable it to scale vertical walls.This POKéMON attacks by slamming foes with its thick tail."]
