@@ -8,9 +8,8 @@ while True:
     for i in Data.Starters:
      if i[0]== Is_Starter:
         print(i)
-        break
-    else:
-        print("Not a Starter from available starters!")
+    break
+    print("Not a Starter from available starters!")
 
 
 while True:
@@ -18,6 +17,5 @@ while True:
     for i in Data.Starters:
      if i[2]== Type_categories:
         print(i)
-        break
-    else:
-        print("Not a valid type. Please choose valid types")
+    break    
+    print("Not a valid type. Please choose valid types")
