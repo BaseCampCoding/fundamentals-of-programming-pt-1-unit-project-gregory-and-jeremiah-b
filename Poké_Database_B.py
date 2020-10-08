@@ -7,9 +7,12 @@ while True:
     Is_Starter = input("What starter would you like to view? (gens 1-3): ")
     for i in Data.Starters:
      if i[0]== Is_Starter:
-        print(i)
-    break
-    print("Not a Starter from available starters!")
+         print(i)
+         break
+     elif Is_Starter == "q":
+         quit()
+     elif i[0]!= Is_Starter:
+         print("Not a Starter from available starters! Please choose a valid starter.")
 
 
 while True:
@@ -17,5 +20,6 @@ while True:
     for i in Data.Starters:
      if i[2]== Type_categories:
         print(i)
-    break    
-    print("Not a valid type. Please choose valid types")
+        break    
+     else:
+        print("Not a valid type. Please choose valid types")
