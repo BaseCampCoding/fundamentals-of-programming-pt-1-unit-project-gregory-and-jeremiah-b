@@ -1,6 +1,6 @@
 import Data
-Awnser=input("What do you want to search by? starters,types,weaknesses,generations\n")
-if Awnser == "starters":
+Awnser=input("What do you want to search by? names,types,weaknesses,generations\n")
+if Awnser == "names":
     while True:
         print(f"Here are the available starters{Data.Starters_string[0]}")
         Is_Starter = input("What starter would you like to view? (gens 1-3) (q to quit):").lower()
