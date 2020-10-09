@@ -15,7 +15,7 @@ if Awnser == "names":
 elif Awnser == "types":
     while True:
         check_if_found_valid = False
-        Type_categories = input("Use a valid type to get a list of pokemon in requested type. (gens 1-3) (press 'q' to quit): ")
+        Type_categories = input("Use a valid type to get a list of pokemon in requested type. (gens 1-3) (press 'q' to quit): ").lower()
         for i in Data.Starters:
             if i[2] == Type_categories:
                 print(i[0])
@@ -38,7 +38,7 @@ elif Awnser == "weaknesses":
 elif Awnser == "generations":
     while True:
         check_if_found_valid = False
-        generations = input("Pick a generation for a list of pokemon. (gens 1-3) (press 'q' to quit): ")
+        generations = input("Pick a generation for a list of pokemon. (gens 1-3) (press 'q' to quit): ").lower()
         for i in Data.Starters:
             if i[3] == generations:
                 print(i[0])
