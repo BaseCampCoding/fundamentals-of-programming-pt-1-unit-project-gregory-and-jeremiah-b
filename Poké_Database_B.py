@@ -31,6 +31,10 @@ elif Awnser == "weaknesses":
         for i in Data.Starters:
             if i[4] == Weaknesses:
                 print(i[0] + " is " + Weaknesses)
+            elif Weaknesses == "q":
+                quit()
+            elif i[4] != Weaknesses and i == Data.Starters[-1]:
+                print ("Not a valid weakness. Please choose a valid weakness")
 elif Awnser == "generations":
     while True:
         check_if_found_valid = False
