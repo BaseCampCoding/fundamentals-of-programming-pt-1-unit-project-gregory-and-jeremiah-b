@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 Starters_string = [" bulbasaur,charmander,squirtle,chikorita,cyndaquil,totodile,treecko,torchic,mudkip"]
 bulbasaur=["bulbasaur",1,"grass","gen 1","weak to fire","evolves into Ivysaur", "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow."]
 charmander=["charmander",4,"fire","gen 1","weak to water","evolves into Charmeleon","From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out."]
@@ -10,7 +9,6 @@ treecko=["treecko",252,"grass", "gen 3","weak to fire","evolves into Grovyle","T
 torchic=["torchic",255,"fire", "gen 3" ,"weak to water","evolves into Combusken","torchic sticks with its trainer, following behind with unsteady steps.This pokémon breathes fire of over 1,800 degrees F, including fireballs that leave the foe scorched black."]
 mudkip=["mudkip",258,"water","gen 3","weak to grass","evolves into marshtomp","The fin on Mudkip’s head acts as highly sensitive radar. Using this fin to sense movements of water and air, this Pokémon can determine what is taking place around it without using its eyes."]
 Starters = [bulbasaur,charmander,squirtle,chikorita,cyndaquil,totodile,treecko,torchic,mudkip]
-=======
 Starters_string = ["bulbasaur","charmander","squirtle","chikorita","cyndaquil","totodile","treecko","torchic","mudkip"]
 bulbasaur=["bulbasaur", "1" ,"grass","1","fire", "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow."]
 charmander=["charmander","4","fire","1","water","From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out."]
@@ -23,4 +21,3 @@ torchic=["torchic","255","fire", "3" ,"water","torchic sticks with its trainer, 
 mudkip=["mudkip","258","water","3","grass", "The fin on Mudkip’s head acts as highly sensitive radar. Using this fin to sense movements of water and air, this Pokémon can determine what is taking place around it without using its eyes."]
 Starters = [bulbasaur,charmander,squirtle,chikorita,cyndaquil,totodile,treecko,torchic,mudkip]
 information = ["Name:", "Pokedex Number:", "Type:", "Generation:", "Weak to", "Pokedex Entry:" ]
->>>>>>> Stashed changes
