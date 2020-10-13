@@ -2,8 +2,8 @@ import Data
 
 
 while True:
-    Awnser=input("What do you want to search by? names,types,weaknesses,generations\n")
-    if Awnser == "names":
+    Answer=input("What do you want to search by? names,types,weaknesses,generations\n")
+    if Answer == "names":
         while True:
             print(f"Here are the available starters{Data.Starters_string[0]}")
             Is_Starter = input("What starter would you like to view? (gens 1-3) (q to quit): ").lower()
@@ -59,5 +59,5 @@ while True:
                     check_if_found_valid = True
                 elif i[2] != generations and i == Data.Starters[-1] and check_if_found_valid == False:
                     print("Not a proper 'gens'. Please choose valid 'gens'")
-    elif Awnser == "Exit":
+    elif Answer == "Exit":
         break
