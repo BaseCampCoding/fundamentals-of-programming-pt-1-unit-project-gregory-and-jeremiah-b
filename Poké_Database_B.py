@@ -5,8 +5,10 @@ while True:
     Answer=input("What do you want to search by? names,types,weaknesses,generations\n")
     if Answer == "names":
         while True:
-            print(f"Here are the available starters{Data.Starters_string[0]}")
-            Is_Starter = input("What starter would you like to view? (gens 1-3) (q to quit): ").lower()
+            print("Here are the available starters \n",end= "")
+            for i in Data.Starters_string:
+                print (i, end="")
+            Is_Starter = input("\n What starter would you like to view? (gens 1-3) (q to quit): ").lower()
             if Is_Starter == "q":
                     break
             for i in Data.Starters:
@@ -26,11 +28,13 @@ while True:
             Type_categories = input("Use a valid type to get a list of pokemon in requested type. (gens 1-3) (press 'q' to quit): ").lower
             if Type_categories == "q":
                     break
-            for i in Data.Starters:
-                if i[2] == Type_categories:
-                    print(i[0])
-                elif i[2] != Type_categories and i == Data.Starters[-1]:
-                    print("Not a valid type. Please choose valid types")
+            if Type_categories == "fire":
+                print = "Charmander, "
+            # for i in Data.Starters:
+                # if i[2] == Type_categories:
+                #     print(i[0])
+                # elif i[2] != Type_categories and i == Data.Starters[-1]:
+                #     print("Not a valid type. Please choose valid types")
     
     
     elif Answer == "weaknesses":
