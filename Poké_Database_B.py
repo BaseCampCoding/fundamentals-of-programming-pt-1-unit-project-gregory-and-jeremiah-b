@@ -23,15 +23,13 @@ while True:
     
     elif Answer == "types":
         while True:
-            check_if_found_valid = False
             Type_categories = input("Use a valid type to get a list of pokemon in requested type. (gens 1-3) (press 'q' to quit): ").lower
             if Type_categories == "q":
                     break
             for i in Data.Starters:
                 if i[2] == Type_categories:
                     print(i[0])
-                    check_if_found_valid = True
-                elif i[2] != Type_categories and i == Data.Starters[-1] and check_if_found_valid == False:
+                elif i[2] != Type_categories and i == Data.Starters[-1]:
                     print("Not a valid type. Please choose valid types")
     
     
