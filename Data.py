@@ -12,3 +12,8 @@ mudkip=["mudkip","258","water","3","grass", "The fin on Mudkip’s head acts as 
 
 Starters = [bulbasaur,charmander,squirtle,chikorita,cyndaquil,totodile,treecko,torchic,mudkip]
 information = ["Name:", "Pokedex Number:", "Type:", "Generation:", "Weak to", "Pokedex Entry:" ]
+
+types = [" fire", " water", " grass"]
+fire = ["charmander", "cyndaquil", "torchic"]
+water = ["squirtle", "totodile", "mudkip"]
+grass = ["bulbasaur", "chikorita", "treecko"]

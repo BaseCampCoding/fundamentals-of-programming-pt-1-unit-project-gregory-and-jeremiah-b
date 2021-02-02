@@ -25,11 +25,15 @@ while True:
     
     elif Answer == "types":
         while True:
-            Type_categories = input("Use a valid type to get a list of pokemon in requested type. (gens 1-3) (press 'q' to quit): ").lower
+            Type_categories = input("Use a valid type to get a list of pokemon in requested type. (press 'q' to quit): fire, water, grass).lower()
             if Type_categories == "q":
                     break
-            if Type_categories == "fire":
-                print = "Charmander, "
+            elif Type_categories == "fire":
+                print(Data.fire)
+            elif Type_categories == "water":
+                print(Data.water)
+            elif Type_categories == "grass":
+                print(Data.grass)
             # for i in Data.Starters:
                 # if i[2] == Type_categories:
                 #     print(i[0])
