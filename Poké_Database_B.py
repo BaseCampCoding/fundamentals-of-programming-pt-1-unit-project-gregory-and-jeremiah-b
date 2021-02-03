@@ -51,7 +51,7 @@ while True:
                     break
             for i in Data.Starters:
                 if i[4] == Weaknesses:
-                    print(i[0] + " is " + Weaknesses)
+                    print(i[0] + " is weak to " + Weaknesses)
                 elif i[4] != Weaknesses and i == Data.Starters[-1]:
                     print ("Not a valid weakness. Please choose a valid weakness")
    
