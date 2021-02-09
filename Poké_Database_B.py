@@ -8,7 +8,7 @@ while True:
             print("Here are the available starters \n",end= "")
             for i in Data.Starters_string:
                 print (i, end="")
-            Is_Starter = input("\n What starter would you like to view? (gens 1-3) (q to quit): ").lower()
+            Is_Starter = input("\n What starter would you like to view? (gens 1-3) (q to quit): \n").lower()
             if Is_Starter == "q":
                     break
             for i in Data.Starters:
