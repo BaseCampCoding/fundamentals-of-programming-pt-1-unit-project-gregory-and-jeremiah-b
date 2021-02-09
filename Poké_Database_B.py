@@ -37,12 +37,6 @@ while True:
             elif Type_categories == "grass":
                 for i in Data.grass:
                     print(i)
-            # for i in Data.Starters:
-                # if i[2] == Type_categories:
-                #     print(i[0])
-                # elif i[2] != Type_categories and i == Data.Starters[-1]:
-                #     print("Not a valid type. Please choose valid types")
-    
     
     elif Answer == "weaknesses":
         while True:
@@ -51,8 +45,11 @@ while True:
                     break
             for i in Data.Starters:
                 if i[4] == Weaknesses:
-                    print(i[0] + " is weak to " + Weaknesses)
-                elif i[4] != Weaknesses and i == Data.Starters[-1]:
+                    print(f"{i[0]} is weak to {Weaknesses}")
+            for i in Data.Starters:
+                if Weaknesses == i[4]:
+                    break
+                elif Weaknesses != i[4]:
                     print ("Not a valid weakness. Please choose a valid weakness")
    
    
